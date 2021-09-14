@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './components/home.js';
 // import { initializeApp } from "firebase/app";
 // import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1>AppTrackr</h1>
+        <Home />
     </div>
   );
 }
